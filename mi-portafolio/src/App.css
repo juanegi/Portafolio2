@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.information,
+.skill,
+.project,
+.git-summary {
+  margin-bottom: 20px;
+}
+
+.information label,
+.skill label,
+.project label,
+.git-summary label {
+  display: block;
+  background-color: #007acc;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.information label:hover,
+.skill label:hover,
+.project label:hover,
+.git-summary label:hover {}
