@@ -181,7 +181,7 @@ function Projects() {
               <a href="https://github.com/juanegi/Comparador.git" target="_blank" rel="noopener noreferrer">
                 este enlace
               </a>{' '}
-              para ver más detalles.
+              para ver más detalles del comparador.
             </p>
           </div>
 
